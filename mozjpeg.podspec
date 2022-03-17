@@ -67,7 +67,6 @@ Pod::Spec.new do |spec|
                              "jpeglib.h",
                              "jpegint.h",
                              "transupp.h"
-                             "CMozJpeg/*.*"
 
   spec.source_files = "jcapimin.c",
                       "jcapistd.c",
@@ -146,7 +145,8 @@ Pod::Spec.new do |spec|
                       "jsimd.h",
                       "jsimddct.h",
                       "jversion.h",
-                      "wrppm.h"
+                      "wrppm.h",
+                      "compress.c"
 
   # Despite their extensions, these are header files that shouldn't be compiled
   # on their own but should still be present for other files to include.
