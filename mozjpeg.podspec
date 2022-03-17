@@ -67,6 +67,7 @@ Pod::Spec.new do |spec|
                              "jpeglib.h",
                              "jpegint.h",
                              "transupp.h"
+                             "CMozJpeg/*.*"
 
   spec.source_files = "jcapimin.c",
                       "jcapistd.c",
